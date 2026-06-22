@@ -1,0 +1,36 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.*
+.phpunit.result.cache
+docker-compose.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Sensitive / environment files
+.env_server
+.htaccess
+
+# User uploaded content (not for version control)
+/public/storage1/
+/storage/app/public1/
+/storage/app/public/branches/
+/storage/app/public/gallery/
+/storage/app/public/materials/
+/storage/app/public/profile_images/
+
+# Old / backup files
+*_old.*
+*_old_*
+*-old.*
+*-1.*
+*_1.*
+*_last.*
+* - Copy.*
+*blade_*-*-*.*
+*_old(*
+*1.blade.php
