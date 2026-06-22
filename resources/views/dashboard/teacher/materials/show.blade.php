@@ -11,7 +11,7 @@
                         <div
                             class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                             <div class="d-flex flex-column">
-                                <h4 class="mb-1">Inspire Coaching Academy</h4>
+                                <h4 class="mb-1">Legacy Scholars Academy</h4>
                                 <p class="mb-0 text-white-50">
                                     <small>
                                         <i class="far fa-calendar-alt mr-2"></i>

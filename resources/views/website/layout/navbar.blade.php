@@ -4,7 +4,7 @@
           <figure class="logo fixed_flex">
               <img src="website/img/logo.jpeg" alt="Logo" class="cursor" />
               <figcaption class="cursor">
-                  <strong class="title">Inspire</strong> Coaching Academy
+                  <strong class="title">Legacy Scholars</strong> Academy
               </figcaption>
           </figure>
       </section>

@@ -73,7 +73,7 @@
 <body>
     <div class="container">
         <div class="notice-container shadow-lg p-4" id="noticeContent">
-            <div class="school-header">Inspire Coaching Academy</div>
+            <div class="school-header">Legacy Scholars Academy</div>
             <hr>
             <div class="notice-title">NOTICE</div>
             <p class="text-end"><strong>Date:</strong> {{ \Carbon\Carbon::now()->format('d M Y') }}</p>
@@ -115,7 +115,7 @@
                 // PDF Content
                 doc.setFont("helvetica", "bold");
                 doc.setFontSize(16);
-                doc.text("Inspire Coaching Academy", 65, 20);
+                doc.text("Legacy Scholars Academy", 65, 20);
 
                 doc.setFont("helvetica", "bold");
                 doc.setFontSize(14);

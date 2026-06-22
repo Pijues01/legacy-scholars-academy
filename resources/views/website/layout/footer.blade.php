@@ -21,7 +21,7 @@
               <figure class="logo fixed_flex">
                   <img src="website/img/logo.jpeg" alt="">
                   <figcaption>
-                      <strong class="title">Inspire</strong> Coaching Academy
+                      <strong class="title">Legacy Scholars</strong> Academy
                   </figcaption>
               </figure>
               <a href="#">
@@ -31,7 +31,7 @@
               </a>
               <a href="emailto:info@schotest.com">
                   <i class="fa fa-envelope-o"></i>
-                  info@ica.com
+                  info@lsa.com
               </a>
               <a href="tel:9315514145">
                   <i class="fa fa-headphones"></i>
@@ -63,7 +63,7 @@
       </div>
       <div class="flex">
           <section class="flex-content padding_1x">
-              <p>Copyright Â©2025 All rights reserved || ICA</p>
+              <p>Copyright Â©2025 All rights reserved || LSA</p>
           </section>
           <section class="flex-content padding_1x">
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

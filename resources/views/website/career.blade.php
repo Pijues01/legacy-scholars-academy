@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Opportunities | Inspire Coaching Academy</title>
+    <title>Career Opportunities | Legacy Scholars Academy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -194,9 +194,9 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            <h1 class="display-4 fw-bold mb-4">Inspire Coaching Academy</h1>
+            <h1 class="display-4 fw-bold mb-4">Legacy Scholars Academy</h1>
             <h3 class="display-4 fw-bold mb-4">Join Our Team</h3>
-            <p class="lead mb-4">Shape the future by educating the leaders of tomorrow at Inspire Coaching Academy</p>
+            <p class="lead mb-4">Shape the future by educating the leaders of tomorrow at Legacy Scholars Academy</p>
             <a href="#openings" class="btn btn-lg btn-outline-light">View Current Openings</a>
             <!-- Secondary Back to Home Button in Hero -->
             <div class="mt-4">
@@ -286,7 +286,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="fw-bold mb-3">Why Work at Inspire Coaching Academy?</h2>
+                    <h2 class="fw-bold mb-3">Why Work at Legacy Scholars Academy?</h2>
                     <p class="lead">We value our staff and provide an environment where educators can thrive.</p>
                 </div>
             </div>
@@ -335,7 +335,7 @@
                         class="testimonial-img mb-3">
                     <h5>Sarah Johnson</h5>
                     <p class="text-muted">Mathematics Teacher</p>
-                    <p>"The collaborative environment at Inspire Coaching Academy has helped me grow as an educator more
+                    <p>"The collaborative environment at Legacy Scholars Academy has helped me grow as an educator more
                         than I ever imagined."</p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
@@ -371,7 +371,7 @@
                         class="testimonial-img mb-3">
                     <h5>Angela Martinez</h5>
                     <p class="text-muted">School Counselor</p>
-                    <p>"I've worked at several schools, but Inspire Coaching Academy stands out for its commitment."</p>
+                    <p>"I've worked at several schools, but Legacy Scholars Academy stands out for its commitment."</p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -430,7 +430,7 @@
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="consentCheck" required>
                             <label class="form-check-label" for="consentCheck">
-                                I consent to Inspire Coaching Academy processing my personal data for recruitment
+                                I consent to Legacy Scholars Academy processing my personal data for recruitment
                                 purposes.*
                             </label>
                         </div>
@@ -449,7 +449,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <h5>Inspire Coaching Academy</h5>
+                    <h5>Legacy Scholars Academy</h5>
                     <p>Preparing students for success in a changing world since 1985.</p>
                     <!-- Footer Back to Home Button -->
                     <a href="/" class="btn btn-home mt-3">
@@ -460,7 +460,7 @@
                     <h5>Contact Us</h5>
                     <p><i class="fas fa-map-marker-alt me-2"></i> 123 Education Way, Learning City, LC 12345</p>
                     <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
-                    <p><i class="fas fa-envelope me-2"></i> ica@info.edu</p>
+                    <p><i class="fas fa-envelope me-2"></i> lsa@info.edu</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Follow Us</h5>
@@ -472,7 +472,7 @@
             </div>
             <hr class="mt-4 bg-light">
             <div class="text-center pt-2">
-                <p class="mb-0">&copy; 2023 Inspire Coaching Academy. All rights reserved.</p>
+                <p class="mb-0">&copy; 2023 Legacy Scholars Academy. All rights reserved.</p>
             </div>
         </div>
     </footer>

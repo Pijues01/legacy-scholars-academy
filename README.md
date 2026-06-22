@@ -1,66 +1,174 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Legacy Scholars Academy (LSA) - School Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A comprehensive school management system built with **Laravel 10** designed to streamline academic and administrative operations for educational institutions. LSA provides role-based dashboards for **Admins, Teachers, Students, and Parents** with features spanning attendance tracking, notice management, class scheduling, feedback systems, and more.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Role-Based Dashboards
+| Role | Access |
+|------|--------|
+| **Admin** | Full system control — members, notices, routines, attendance, feedback, holidays, leaves, objections, gallery, branches, jobs |
+| **Teacher** | Schedule view, student lookups, notices, materials management, feedback, leave requests |
+| **Student** | Attendance history, notices, class schedule, feedback, leave requests, study materials |
+| **Parent** | Children oversight, attendance view, notices, feedback, objections, class schedule |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Core Modules
+- **Member Management** — CRUD for students, teachers, and parents with role-based registration
+- **Notice System** — Create notices with audience targeting (teachers/students/parents), PDF download
+- **Class Routines** — Weekly schedule management with subject, teacher, branch assignments; PDF export
+- **Attendance Tracking** — Per-class attendance with calendar view and date-based queries
+- **Feedback System** — Submit complaints, suggestions, or appreciations; admin review and response
+- **Holiday Management** — Branch-specific holidays with recurring option
+- **Leave Applications** — Sick/casual/emergency leave with admin approval workflow
+- **Objection Management** — Students raise objections; teachers and admins review and approve
+- **Study Materials** — Teachers upload documents, images, videos; students view online
+- **Gallery** — Image management with featured image toggle
+- **Job Portal** — Public job listings with online application and resume upload
+- **Public Website** — Home, gallery, branches, about, contact, career pages with inquiry forms
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Tech Stack
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+| Layer | Technology |
+|-------|-----------|
+| **Framework** | Laravel 10 |
+| **Language** | PHP 8.1+ |
+| **Frontend** | Blade templates, Bootstrap 4/5, vanilla JavaScript |
+| **Authentication** | Custom session-based auth (unique_id) + Laravel Sanctum |
+| **Database** | MySQL (via XAMPP) |
+| **Packages** | barryvdh/laravel-dompdf (PDF), intervention/image (image processing), spatie/laravel-permission |
+| **Build Tool** | Vite |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## Installation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Prerequisites
+- PHP 8.1+
+- Composer
+- MySQL
+- Node.js & npm (for Vite)
 
-### Premium Partners
+### Setup
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```bash
+# Clone the repository
+git clone <repository-url>
+cd lsa
 
-## Contributing
+# Install PHP dependencies
+composer install
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# Install & build frontend assets
+npm install
+npm run build
 
-## Code of Conduct
+# Environment configuration
+cp .env.example .env
+php artisan key:generate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Configure database in .env, then run:
+php artisan migrate
 
-## Security Vulnerabilities
+# Start the development server
+php artisan serve
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
+
+## Authentication
+
+Login uses the **unique_id** field instead of email. Authentication is handled via:
+- `AuthController` — Login, logout, profile management
+- `RoleMiddleware` — Route protection by role (`admin`, `teacher`, `student`, `parent`)
+- `RedirectIfAuthenticated` — Redirects logged-in users to their role-specific dashboard
+
+---
+
+## System Architecture
+
+```
+app/
+├── Http/
+│   ├── Controllers/     # Auth, Admin, Teacher, Student, Parent, Website, User
+│   └── Middleware/       # RoleMiddleware, RedirectIfAuthenticated, Auth
+├── Models/               # 21 Eloquent models
+└── Providers/
+config/                   # Application configuration
+database/
+├── migrations/           # Users, password resets, personal access tokens
+└── seeders/
+resources/views/
+├── dashboard/            # Admin, Teacher, Student, Parent views + layout
+├── website/              # Public-facing pages + layout
+└── auth/                 # Login, register
+routes/
+├── web.php               # All web routes (271 lines)
+└── api.php               # Sanctum API routes
+public/                   # Assets, uploads
+storage/                  # Logs, cache, compiled views
+```
+
+---
+
+## Database Overview (21 Models)
+
+| Model | Table | Purpose |
+|-------|-------|---------|
+| User | `users` | Authentication & role assignment |
+| Student | `student` | Student profiles linked to users |
+| Teacher | `teacher` | Teacher profiles linked to users |
+| Parents | `parent` | Parent profiles linked to users |
+| Branch | `branches` | Campus/branch locations |
+| ClassLevels | `class_levels` | Academic class levels |
+| Subject | `subject` | Subjects offered |
+| ClassRoutine | `class_routines` | Weekly class schedules |
+| Attendance | `student_attendance` | Student attendance records |
+| TeacherAttendance | `teacher_attendances` | Teacher attendance records |
+| Notices | `notices` | Notifications with audience targeting |
+| Feedback | `feedbacks` | Complaints, suggestions, appreciations |
+| GalleryImage | `gallery_images` | Public gallery images |
+| Holiday | `holidays` | Branch-specific holidays |
+| Material | `materials` | Study materials (files/content) |
+| LeaveApplication | `leave_applications` | Leave requests and approvals |
+| Objection | `objections` | Student grade/mark objections |
+| Job | `jobs` | Job openings |
+| Application | `applications` | Job applications with resumes |
+| Contact | `contact` | Public contact form submissions |
+| Consult | `consult` | Admission consultation inquiries |
+
+---
+
+## Development
+
+```bash
+# Run Laravel Pint for code style
+./vendor/bin/pint
+
+# Run tests
+php artisan test
+
+# Compile assets
+npm run dev    # Development
+npm run build  # Production
+```
+
+---
+
+## Project Rules
+
+This project includes a `rules/` directory with convention documentation:
+
+- **design.md** — Layout, naming, forms, responses, assets
+- **security.md** — Auth, authorization, CSRF, validation, file uploads
+- **code-style.md** — PSR-12, Laravel conventions, naming, legacy cleanup
+- **database.md** — Naming, schema design, Eloquent conventions, migrations
+
+---
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is open-sourced under the MIT license.

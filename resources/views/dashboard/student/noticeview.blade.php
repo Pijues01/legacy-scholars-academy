@@ -62,7 +62,7 @@
 @section('content')
     <div class="container">
         <div class="notice-container shadow-lg p-4">
-            <div class="school-header">Inspire Coaching Academy</div>
+            <div class="school-header">Legacy Scholars Academy</div>
             <hr>
             <div class="notice-title">NOTICE</div>
             <p class="text-end"><strong>Date:</strong> {{ $notice->created_at->format('d M Y') }}</p>

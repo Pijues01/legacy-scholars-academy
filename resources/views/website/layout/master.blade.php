@@ -38,7 +38,7 @@
 
 
 
-    <title>Inspire Coaching Academy</title>
+    <title>Legacy Scholars Academy</title>
 </head>
 
 <body>

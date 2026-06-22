@@ -3,7 +3,7 @@
       <section class="flex_content">
           <a href="emailto:info@lilliovi.com">
               <i class="fa fa-envelope-o"></i>
-              info@ica.com
+              info@lsa.com
           </a>
           <a href="tel:1234567890">
               <i class="fa fa-headphones"></i>

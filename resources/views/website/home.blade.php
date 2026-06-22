@@ -4,14 +4,14 @@
     <header class="flex">
         <article>
             <h1 class="title big">
-                Welcome to <br /><em>Inspire</em> Coaching Academy
+                Welcome to <br /><em>Legacy Scholars</em> Academy
             </h1>
             <h4>Empowering Excellence, Shaping Futures</h4>
             <p>
-                At ICA, we are committed to transforming education. With a legacy of
+                At LSA, we are committed to transforming education. With a legacy of
                 inspiring success, we provide exceptional learning experiences
                 tailored to help students achieve their dreams. Whether it's academic
-                excellence, skill-building, or career advancement, ICA is your trusted
+                excellence, skill-building, or career advancement, LSA is your trusted
                 partner on the journey to greatness.
             </p>
             <a href="#" class="btn btn_3">Explore more</a>
@@ -38,7 +38,7 @@
             </aside>
             <aside class="padding_1x">
                 <h2 class="sub_title">Features</h2>
-                <b><i>Why Choose Inspire Coaching Academy?</i></b>
+                <b><i>Why Choose Legacy Scholars Academy?</i></b>
                 <p>
                     It is a long established fact that a reader will be distracted by
                     the readable content of a page when looking at its layout.
@@ -174,7 +174,7 @@
                 <div class="title_header">
                     <h2 class="title medium">Upcoming Events</h2>
                     <p>
-                        Join us for insightful sessions, workshops, and academic events at Inspire Coaching Academy.
+                        Join us for insightful sessions, workshops, and academic events at Legacy Scholars Academy.
                     </p>
                     <span class="bar_white"></span>
                     <ul class="logo-slider event-slider">

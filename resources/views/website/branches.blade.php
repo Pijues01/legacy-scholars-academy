@@ -139,7 +139,7 @@
                 <div class="branches_divs branches_divs1">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                            <h2>Inspire Coaching Academy
+                            <h2>Legacy Scholars Academy
                                 <br>
                                 ({{ $branch->branch_name }})
                             </h2>
