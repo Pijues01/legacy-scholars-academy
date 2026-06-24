@@ -236,11 +236,10 @@
                             <img src="https://i.postimg.cc/vBB5JsvW/01.webp" alt="" loading="lazy" />
                         </figure>
                         <article class="padding_1x">
-                            <strong class="tag">Examination</strong>
-                            <a href="#" class="title small">Lorem Ipsum is simply dummy text of the printing</a>
+                            <strong class="tag">Mathematics</strong>
+                            <a href="#" class="title small">Algebra & Geometry Basics</a>
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random
-                                text. It has roots in a piece of classical...
+                                Test your knowledge of algebraic expressions, equations, and geometric shapes.
                             </p>
                             <aside class="fixed_flex">
                                 <span class="flex-content">
@@ -248,6 +247,7 @@
                                     <a href="#"><i class="fa fa-clock-o"></i> 20:38 pm</a>
                                 </span>
                             </aside>
+                            <a href="#" class="btn btn_1">Start Test</a>
                         </article>
                     </li>
                     <!--card ends-->
@@ -257,11 +257,10 @@
                             <img src="https://i.postimg.cc/vBB5JsvW/01.webp" alt="" loading="lazy" />
                         </figure>
                         <article class="padding_1x">
-                            <strong class="tag">Examination</strong>
-                            <a href="#" class="title small">Lorem Ipsum is simply dummy text of the printing</a>
+                            <strong class="tag">English</strong>
+                            <a href="#" class="title small">Grammar & Comprehension</a>
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random
-                                text. It has roots in a piece of classical...
+                                Assess your English grammar skills and reading comprehension abilities.
                             </p>
                             <aside class="fixed_flex">
                                 <span class="flex-content">
@@ -269,6 +268,7 @@
                                     <a href="#"><i class="fa fa-clock-o"></i> 20:38 pm</a>
                                 </span>
                             </aside>
+                            <a href="#" class="btn btn_1">Start Test</a>
                         </article>
                     </li>
                     <!--card ends-->
@@ -278,11 +278,10 @@
                             <img src="https://i.postimg.cc/vBB5JsvW/01.webp" alt="" loading="lazy" />
                         </figure>
                         <article class="padding_1x">
-                            <strong class="tag">Examination</strong>
-                            <a href="#" class="title small">Lorem Ipsum is simply dummy text of the printing</a>
+                            <strong class="tag">Science</strong>
+                            <a href="#" class="title small">Physics & Chemistry Fundamentals</a>
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random
-                                text. It has roots in a piece of classical...
+                                Evaluate your understanding of basic physics laws and chemical reactions.
                             </p>
                             <aside class="fixed_flex">
                                 <span class="flex-content">
@@ -290,6 +289,7 @@
                                     <a href="#"><i class="fa fa-clock-o"></i> 20:38 pm</a>
                                 </span>
                             </aside>
+                            <a href="#" class="btn btn_1">Start Test</a>
                         </article>
                     </li>
                     <!--card ends-->
@@ -299,11 +299,10 @@
                             <img src="https://i.postimg.cc/vBB5JsvW/01.webp" alt="" loading="lazy" />
                         </figure>
                         <article class="padding_1x">
-                            <strong class="tag">Examination</strong>
-                            <a href="#" class="title small">Lorem Ipsum is simply dummy text of the printing</a>
+                            <strong class="tag">Computer</strong>
+                            <a href="#" class="title small">Programming & IT Concepts</a>
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random
-                                text. It has roots in a piece of classical...
+                                Test your knowledge of programming languages and information technology.
                             </p>
                             <aside class="fixed_flex">
                                 <span class="flex-content">
@@ -311,6 +310,7 @@
                                     <a href="#"><i class="fa fa-clock-o"></i> 20:38 pm</a>
                                 </span>
                             </aside>
+                            <a href="#" class="btn btn_1">Start Test</a>
                         </article>
                     </li>
                     <!--card ends-->
@@ -320,11 +320,10 @@
                             <img src="https://i.postimg.cc/vBB5JsvW/01.webp" alt="" loading="lazy" />
                         </figure>
                         <article class="padding_1x">
-                            <strong class="tag">Examination</strong>
-                            <a href="#" class="title small">Lorem Ipsum is simply dummy text of the printing</a>
+                            <strong class="tag">General Knowledge</strong>
+                            <a href="#" class="title small">Current Affairs & Awareness</a>
                             <p>
-                                Contrary to popular belief, Lorem Ipsum is not simply random
-                                text. It has roots in a piece of classical...
+                                Challenge your awareness of current events and general knowledge topics.
                             </p>
                             <aside class="fixed_flex">
                                 <span class="flex-content">
@@ -332,6 +331,7 @@
                                     <a href="#"><i class="fa fa-clock-o"></i> 20:38 pm</a>
                                 </span>
                             </aside>
+                            <a href="#" class="btn btn_1">Start Test</a>
                         </article>
                     </li>
                     <!--card ends-->
