@@ -16,6 +16,7 @@ A comprehensive school management system built with **Laravel 10** designed to s
 
 ### Core Modules
 - **Member Management** — CRUD for students, teachers, and parents with role-based registration
+- **Branch Management** —Branch location management, where different student,teacher,parent,routine,notice
 - **Notice System** — Create notices with audience targeting (teachers/students/parents), PDF download
 - **Class Routines** — Weekly schedule management with subject, teacher, branch assignments; PDF export
 - **Attendance Tracking** — Per-class attendance with calendar view and date-based queries
